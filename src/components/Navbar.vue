@@ -4,14 +4,14 @@
 		<div class="flex justify-center gap-4">
 			<button
 				@click="typeNews('unread')"
-				:class="{ 'bg-black text-white': type === 'unread' }"
+				:class="{ 'bg-white border border-black': type === 'unread' }"
 				class="px-2 py-1 duration-300 rounded-xl bg-black/20 hover:scale-105"
 			>
 				Unread
 			</button>
 			<button
 				@click="typeNews('already-read')"
-				:class="{ 'bg-black text-white': type === 'already-read' }"
+				:class="{ 'bg-white border border-black': type === 'already-read' }"
 				class="px-2 py-1 duration-300 rounded-xl bg-black/20 hover:scale-105"
 			>
 				Already Read
